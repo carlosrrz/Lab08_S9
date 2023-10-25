@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Reserva</title>
+</head>
+<body>
+    <h1>Crear Reserva</h1>
+    <form action="ControladorReserva" method="post">
+        <label for="nombreCliente">Nombre del Cliente:</label>
+        <input type="text" id="nombreCliente" name="nombreCliente" required><br>
+
+        <label for="fechaReserva">Fecha de Reserva:</label>
+        <input type="date" id="fechaReserva" name="fechaReserva" required><br>
+
+        <label for="numeroPersonas">Número de Personas:</label>
+        <input type="number" id="numeroPersonas" name="numeroPersonas" required><br>
+
+        <input type="submit" value="Crear Reserva">
+    </form>
+</body>
+</html>
